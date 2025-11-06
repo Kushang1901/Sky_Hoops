@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 197 71% 73%;
+    --foreground: 0 0% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 48 100% 50%;
+    --secondary-foreground: 0 0% 20%;
+
+    --muted: 197 50% 85%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 32 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 197 30% 85%;
+    --input: 197 30% 85%;
+    --ring: 142 76% 36%;
+
+    --radius: 1rem;
+    
+    /* Game-specific colors */
+    --game-sky: 197 71% 73%;
+    --game-grass: 142 76% 36%;
+    --game-pipe: 142 50% 25%;
+    --game-bird: 48 100% 50%;
+    --game-cloud: 0 0% 100%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 20% 15%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 20% 18%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 20% 18%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 48 100% 50%;
+    --secondary-foreground: 0 0% 20%;
+
+    --muted: 220 20% 25%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 32 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 30%;
+    --input: 220 20% 30%;
+    --ring: 142 76% 36%;
+    
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    /* Game-specific colors for dark mode */
+    --game-sky: 220 40% 20%;
+    --game-grass: 142 60% 25%;
+    --game-pipe: 142 40% 18%;
+    --game-bird: 48 100% 50%;
+    --game-cloud: 0 0% 30%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
