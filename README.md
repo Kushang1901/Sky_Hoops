@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+Sky Hoops – Flappy Bird Style Game (React + Vite)
 
-## Project info
+🎮 Live Demo: https://sky-hoops.vercel.app
 
-**URL**: https://lovable.dev/projects/69d75c1f-ac60-4e11-869a-6dbc7e6f1b20
+🌟 Overview
 
-## How can I edit this code?
+Sky Hoops is a fast, fun, and responsive Flappy Bird–style game built using React, Vite, and TypeScript.
+Players tap or click to keep the bird flying through moving pipes while scoring points.
 
-There are several ways of editing your application.
+It’s perfect for:
 
-**Use Lovable**
+Game developers who want a ready-made template
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/69d75c1f-ac60-4e11-869a-6dbc7e6f1b20) and start prompting.
+Beginners learning React game development
 
-Changes made via Lovable will be committed automatically to this repo.
+Indie creators planning to publish on web or Android
 
-**Use your preferred IDE**
+🚀 Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🐦 Smooth bird movement and gravity system
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🧱 Randomly generated obstacles
 
-Follow these steps:
+🏆 Live scoring system
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+📱 Fully responsive (works on desktop & mobile)
+
+⚡ Lightning-fast performance using Vite
+
+🎨 Customizable UI built with TailwindCSS and shadcn-ui
+
+💻 Clean, modular React + TypeScript code
+
+🧩 Tech Stack
+
+React (TypeScript) – UI and game logic
+
+Vite – Frontend build tool
+
+Tailwind CSS – Styling
+
+shadcn-ui – Reusable UI components
+
+⚙️ Installation & Setup
+
+Requirements: Node.js and npm installed
+
+# 1️⃣ Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2️⃣ Go to project folder
+cd sky-hoops-game-main
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3️⃣ Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4️⃣ Run development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Visit http://localhost:5173
+ in your browser.
 
-**Use GitHub Codespaces**
+🏗️ Build for Production
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+To generate optimized build files:
 
-## What technologies are used for this project?
+npm run build
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Output will be created in the dist/ folder.
+You can deploy this on Vercel, Netlify, or any static hosting service.
 
-## How can I deploy this project?
+🌐 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/69d75c1f-ac60-4e11-869a-6dbc7e6f1b20) and click on Share -> Publish.
+This game is already deployed and live:
+👉 https://sky-hoops.vercel.app
 
-## Can I connect a custom domain to my Lovable project?
+You can easily deploy your own version by connecting your GitHub repo to Vercel — automatic builds supported.
 
-Yes, you can!
+💰 Monetization
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+You can turn this game into a revenue-earning app:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Convert it into an Android app using Apache Cordova or Capacitor
+
+Integrate AdMob SDK for banner or interstitial ads
+
+Publish on Google Play Store or sell the source code on platforms like Codester or CodeCanyon
+
+🎨 Customization
+
+You can easily:
+
+Change assets in src/assets/
+
+Adjust game difficulty and jump speed in FlappyGame.tsx
+
+Modify colors, backgrounds, and text in App.css or Tailwind config
+
+📜 License
+
+This project can be used for personal or commercial purposes.
+Attribution is appreciated but not required.
+
+🧑‍💻 Author
+
+Developed by Kushang Acharya
+Created using Lovable.dev, React, and Vite.
