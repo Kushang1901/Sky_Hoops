@@ -58,7 +58,7 @@ npm install
 npm run dev
 
 
-Visit http://localhost:5173
+Visit the respected localhost link of your browser
  in your browser.
 
 🏗️ Build for Production
